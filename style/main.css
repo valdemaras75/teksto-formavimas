@@ -1,0 +1,53 @@
+body{
+   padding: 20px;
+}
+article{
+   max-width: 1000px;
+   margin: 0 auto;
+}
+div{
+   text-align: center;
+   font-size: 5em;
+   text-shadow: -3px 5px 5px rgb(226, 77, 77);
+}
+h1{
+   text-shadow: -3px 5px 5px #999;
+   text-align: center;
+   font-size: 40px;
+   border-bottom: solid 2px black;
+}
+p{
+   text-align: justify;
+   font-size: 19px;
+   border: solid 3px red;
+   margin-top: 10px;
+   padding-bottom: 20px;
+}
+h2{
+   background: #999;
+   border-radius: 15px 20px ;
+   margin-top: -20px; 
+   font-size: 35px;
+   text-align: right;
+}
+h2::first-letter{
+   font-size: 40px;
+   background: blue;
+   color: red;
+}
+h3{
+   margin-top: -8px;/*susiliga bloka margin tampa nuliu*/
+   font-size: 30px;
+   font-family: League Gothic;
+   background: #470047;
+   color: yellow;
+}
+h4{
+   margin-top: 5px;
+   margin-left: 600px;
+   font-size: 25px;
+   font-family: Oswald;
+   font-weight: 700;
+   background: #470006;
+   color: beige;
+}
